@@ -38,3 +38,4 @@ const nextISSTimesForMyLocation = function(callback) {
 // Only export nextISSTimesForMyLocation and not the other three (API request) functions.
 // This is because they are not needed by external modules.
 module.exports = { nextISSTimesForMyLocation };
+
